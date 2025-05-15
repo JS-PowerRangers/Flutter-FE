@@ -40,7 +40,7 @@ class _ChatBotPageState extends State<ChatBotPage> {
 
   // Địa chỉ IP và port của Python WebSocket server
   // Thay thế 'localhost' bằng địa chỉ IP của Raspberry Pi nếu Flutter chạy trên thiết bị khác
-  final String _webSocketUrl = 'ws://localhost:8765'; // Mặc định cho local
+  final String _webSocketUrl = 'ws://10.0.2.2:8765'; // Mặc định cho local
   // final String _webSocketUrl = 'ws://YOUR_RASPBERRY_PI_IP:8765'; // Khi server ở máy khác
 
   @override
