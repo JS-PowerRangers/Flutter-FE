@@ -30,7 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  intl: ^0.18.0 # Or your current version
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
   web_socket_channel: ^2.0.0
   path_provider: ^2.0.0
 
